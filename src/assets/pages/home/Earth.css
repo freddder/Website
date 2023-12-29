@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    bottom: -500px;
+    right: -350px;
+}
+
+.ocean {
+    height: 1000px;
+    width: 1000px;
+    border-radius: 50%;
+    background-color: #3380B5;
+    /* overflow: hidden; */
+}

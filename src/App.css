@@ -1,44 +1,57 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: url(./assets/images/Background2.png) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
   color: white;
+}
+
+.header {
+  height: 10vh;
+  display: flex;
+  background-image: linear-gradient(rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.header button {
+  border: none;
+  font-family: Ubuntu;
+  font-size: 2rem;
+  color: white;
+  background: none;
+  cursor: pointer;
+}
+
+.pageButtons {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.body {
+  height: 90vh;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+
+  .header {
+
   }
-  to {
-    transform: rotate(360deg);
+
+  .pageButtons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
   }
+
 }
 
 @font-face {
-  font-family: "Ubuntu";   /*Can be any text*/
+  font-family: "Ubuntu";
   src: local("UbuntuMono-Regular"),
     url(./assets/fonts/UbuntuMono-Regular.ttf) format("truetype");
 }
