@@ -5,9 +5,18 @@
 }
 
 .ocean {
+    position: relative;
     height: 1000px;
     width: 1000px;
     border-radius: 50%;
     background-color: #3380B5;
-    /* overflow: hidden; */
+    overflow: hidden;
+}
+
+[class *= 'land'] {
+    position: absolute;
+    height: 150px;
+    width: 400px; 
+    border-radius: 75px;
+    background-color: #85C567;
 }
