@@ -20,3 +20,11 @@
     border-radius: 75px;
     background-color: #85C567;
 }
+
+[class *= 'cloud'] {
+    position: absolute;
+    height: 60px;
+    width: 250px; 
+    border-radius: 30px;
+    background-color: #ffffff;
+}
