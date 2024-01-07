@@ -42,9 +42,9 @@ function Earth() {
     cloud4.to('.cloud-4', { x: 0, duration: 8, ease: 'none' });
 
     var cloud5 = gsap.timeline({ repeat: -1 });
-    cloud5.to('.cloud-5', { x: 800, duration: 8, ease: 'none' });
-    cloud5.to('.cloud-5', { x: -800, duration: 0, ease: 'none' });
-    cloud5.to('.cloud-5', { x: 0, duration: 8, ease: 'none' });
+    cloud5.to('.cloud-5', { x: 900, duration: 6, ease: 'none' });
+    cloud5.to('.cloud-5', { x: -900, duration: 0, ease: 'none' });
+    cloud5.to('.cloud-5', { x: 0, duration: 6, ease: 'none' });
   }, [])
 
   return (

@@ -1,18 +1,10 @@
 import './App.css';
-import React, { useEffect } from 'react'
-import gsap from 'gsap';
+import React, { useState } from 'react'
 import Home from './assets/pages/home/Home';
+import Experience from './assets/pages/experience/Experience';
 
 function App() {
-
-  useEffect(() => {
-    gsap.to(".bonezone", {
-      rotation: 360,
-      duration: 3,
-      repeat: -1,
-      ease: 'none'
-    });
-  }, [])
+  const [page, setPage] = useState('Home');
 
   return (
     <div className="App">
@@ -22,13 +14,14 @@ function App() {
           Look at him go
         </p>*/}
         <div className="pageButtons">
-          <button>Home</button>
-          <button>Experience</button>
-          <button>About</button>
+          <button onClick={ () => setPage('Home') }>Home</button>
+          <button onClick={ () => setPage('Experience') }>Experience</button>
+          <button onClick={ () => setPage('About') }>About Me</button>
         </div>
       </header>
       <body className='body'>
-        <Home/>
+        { page === 'Home' && <Home/> }
+        { page === 'Experience' && <Experience/> }
       </body>
     </div>
   );
