@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState } from 'react'
 import Home from './assets/pages/home/Home';
 import Experience from './assets/pages/experience/Experience';
+import About from './assets/pages/About/About';
 
 function App() {
   const [page, setPage] = useState('Home');
@@ -22,6 +23,7 @@ function App() {
       <body className='body'>
         { page === 'Home' && <Home/> }
         { page === 'Experience' && <Experience/> }
+        { page === 'About' && <About/> }
       </body>
     </div>
   );
