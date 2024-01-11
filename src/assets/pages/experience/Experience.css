@@ -4,16 +4,6 @@
     display: flex;
     width: 100%;
     padding-bottom: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-[class *= 'project']::before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -9999px;
-    right: 0;
-    box-shadow: 9999px 0 0 white;
 }
 
 [class *= 'project'] h1 {
