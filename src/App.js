@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react'
 import Home from './assets/pages/home/Home';
 import Experience from './assets/pages/experience/Experience';
-import About from './assets/pages/About/About';
+import About from './assets/pages/about/About';
 
 function App() {
   const [page, setPage] = useState('Home');
@@ -20,11 +20,11 @@ function App() {
           <button onClick={ () => setPage('About') }>About Me</button>
         </div>
       </header>
-      <body className='body'>
+      <div>
         { page === 'Home' && <Home/> }
         { page === 'Experience' && <Experience/> }
         { page === 'About' && <About/> }
-      </body>
+      </div>
     </div>
   );
 }
