@@ -1,18 +1,19 @@
-import React from 'react'
+import React from 'react';
+import './Experience.css';
 
 function Project(props) {
 
     return (
         <div className={`project-${props.projNumber}`}>
-            <img src={props.imgSrc} alt={props.imgAlt} style={{ maxWidth: '30%', marginRight: '20px', objectFit: 'contain' }}/>
-            <div style={{ textAlign: 'left' }}>
+            <img className='projImg' src={props.imgSrc} alt={props.imgAlt}/>
+            <div className='projContainer'>
                 { props.link !== '' 
                     ? <h1><a href={props.link} target="_blank" rel="noreferrer" style={{ color: 'white' }}>{props.projName}</a></h1>
                     : <h1>{props.projName}</h1>
                 }
                 <h2>{props.title}</h2>
                 <div style={{ display: 'flex' }}>
-                    <div style={{ marginRight: '50px' }}>
+                    <div style={{ marginRight: '10px' }}>
                         { props.responsabilities.map((responsability) => {
                             return <li>{responsability}</li>
                         })}

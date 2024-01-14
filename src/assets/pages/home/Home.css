@@ -1,6 +1,8 @@
 .titles {
     text-align: left;
     font-family: Ubuntu;
+    width: 50%;
+    padding-left: 5vw;
 }
   
 .titles h1 {
@@ -8,8 +10,59 @@
     margin: 0;
 }
 
+.contact {
+    display: flex;
+}
+
 .contactIcon {
     height: 50px;
     width: 50px;
     margin-right: 25px;
+}
+
+.homeContainer {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.earthDiv {
+    width: 50%; 
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+
+    .contact {
+        display: inline;
+    }
+    
+    .homeContainer {
+        justify-content: center;
+    }
+
+    .titles {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .titles h1 {
+        font-size: 4em;
+    }
+
+    .titles h2 {
+        font-size: 1em;
+    }
+
+    .contactIcon {
+        margin-right: 15px;
+    }
+
+    .earthDiv {
+        width: 0%;
+    }
 }

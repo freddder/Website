@@ -30,13 +30,7 @@
   color: #61dafb;
 }
 
-
-
 @media (max-width: 1000px) {
-
-  .header {
-
-  }
 
   .pageButtons {
     width: 100%;

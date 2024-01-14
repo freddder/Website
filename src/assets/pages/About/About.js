@@ -13,7 +13,8 @@ function About() {
 
   useEffect(() => {
     var tl = gsap.timeline();
-    tl.fromTo(".gameLogo-1", { x: -50, opacity: 0 }, { x: 0, opacity: 1, duration: 1 });
+    tl.fromTo(".textBlock", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 });
+    tl.fromTo(".gameLogo-1", { x: -50, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.7");
     tl.fromTo(".gameLogo-2", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.7");
     tl.fromTo(".gameLogo-3", { x: 50, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.7");
     tl.fromTo(".gameLogo-4", { x: -50, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.7");

@@ -18,3 +18,39 @@
 [class *= 'project'] li {
     font-size: 1.5rem;
 }
+
+.projContainer {
+    text-align: left;
+}
+
+.projImg {
+    max-width: 30%;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+
+    [class *= 'project'] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projContainer {
+        text-align: center;
+    }
+
+    .projImg {
+        max-width: 90%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        object-fit: contain;
+    }
+
+    [class *= 'project'] li {
+        text-align: left;
+        font-size: 1rem;
+    }
+}
