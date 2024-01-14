@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.709b13b7.css",
-    "main.js": "/static/js/main.c80650dd.js",
+    "main.css": "/static/css/main.40f1caa5.css",
+    "main.js": "/static/js/main.0a49d05a.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/BOTW_Logo.png": "/static/media/BOTW_Logo.7dd5a528082379bd07ac.png",
+    "static/media/PKM_Banner.png": "/static/media/PKM_Banner.b6880040757e668e31f9.png",
+    "static/media/Path_of_Titans_Banner.jpg": "/static/media/Path_of_Titans_Banner.1e659053542f0c6264eb.jpg",
+    "static/media/Portal_2_Logo.png": "/static/media/Portal_2_Logo.871b5c62263e83714280.png",
     "static/media/UbuntuMono-Regular.ttf": "/static/media/UbuntuMono-Regular.9fa7d55c51063608f793.ttf",
+    "static/media/Outer_Wilds_Logo.png": "/static/media/Outer_Wilds_Logo.6f1fdd2a6f37dbbdf066.png",
+    "static/media/Pokemon_BW2_Logo.png": "/static/media/Pokemon_BW2_Logo.608111adc1a22d2d3ae7.png",
+    "static/media/RoR_2_Logo.png": "/static/media/RoR_2_Logo.8f5c3a1dfb06fea188d0.png",
+    "static/media/Satisfactory_Logo.png": "/static/media/Satisfactory_Logo.33cf466dfdc8d4c109bf.png",
     "index.html": "/index.html",
-    "main.709b13b7.css.map": "/static/css/main.709b13b7.css.map",
-    "main.c80650dd.js.map": "/static/js/main.c80650dd.js.map",
+    "main.40f1caa5.css.map": "/static/css/main.40f1caa5.css.map",
+    "main.0a49d05a.js.map": "/static/js/main.0a49d05a.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.709b13b7.css",
-    "static/js/main.c80650dd.js"
+    "static/css/main.40f1caa5.css",
+    "static/js/main.0a49d05a.js"
   ]
 }
