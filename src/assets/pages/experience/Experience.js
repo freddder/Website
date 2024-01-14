@@ -46,8 +46,8 @@ function Experience() {
   }, [])
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
-      <div style={{ minHeight: '90vh', width: '80vw', backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '30px 30px 0px 30px' }}>
+    <div style={{ minHeight: '90vh', display: 'flex', justifyContent: 'center' }}>
+      <div style={{ width: '80vw', backgroundColor: 'rgba(0, 0, 0, 0.5)', padding: '30px 30px 0px 30px' }}>
         { projects.map((projProps, index) => {
           projProps['projNumber'] = index + 1;
           return <Project {...projProps}/>
