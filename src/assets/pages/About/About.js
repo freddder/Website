@@ -7,7 +7,7 @@ import PokemonBW2_Logo from '../../images/Pokemon_BW2_Logo.png';
 import RoR2_Logo from '../../images/RoR_2_Logo.png';
 import Satisfactory_Logo from '../../images/Satisfactory_Logo.png';
 import Portal2_Logo from '../../images/Portal_2_Logo.png';
-import Picture from '../../images/Pic_Placeholder.png';
+import Picture from '../../images/My_Picture.jpg';
 
 function About() {
 
@@ -25,7 +25,7 @@ function About() {
   return (
     <div style={{ minHeight: '90vh' }}>
       <div className='textBlock'>
-        <img src={Picture} alt='Zelda Breath of the Wild logo' style={{ float: 'left', maxHeight: '200px', margin: '20px 20px 20px 0px' }}/>
+        <img src={Picture} alt='My picture' style={{ float: 'left', maxHeight: '200px', margin: '20px 20px 20px 0px' }}/>
         <p>
           My name is Lucas Frederico Piquet Carneiro Magalhaes. I've studied programming 
           and enjoyed video games through all of my life. My dream is to work on video games that people can 
