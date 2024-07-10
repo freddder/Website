@@ -1,51 +1,42 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import gsap from 'gsap';
-import './About.css'
-import BOTW_Logo from '../../images/BOTW_Logo.png';
-import OuterWilds_Logo from '../../images/Outer_Wilds_Logo.png';
-import PokemonBW2_Logo from '../../images/Pokemon_BW2_Logo.png';
-import RoR2_Logo from '../../images/RoR_2_Logo.png';
-import Satisfactory_Logo from '../../images/Satisfactory_Logo.png';
-import Portal2_Logo from '../../images/Portal_2_Logo.png';
+import './About.css';
 import Picture from '../../images/My_Picture.jpg';
 
 function About() {
 
   useEffect(() => {
     var tl = gsap.timeline();
-    tl.fromTo(".textBlock", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 });
-    tl.fromTo(".gameLogo-1", { x: -50, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.7");
-    tl.fromTo(".gameLogo-2", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.7");
-    tl.fromTo(".gameLogo-3", { x: 50, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.7");
-    tl.fromTo(".gameLogo-4", { x: -50, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.7");
-    tl.fromTo(".gameLogo-5", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.7");
-    tl.fromTo(".gameLogo-6", { x: 50, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.7");
+    tl.fromTo(".textBlock", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 });
+    tl.fromTo("li", { y: -20, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.4");
   }, [])
 
   return (
     <div style={{ minHeight: '90vh' }}>
       <div className='textBlock'>
-        <img src={Picture} alt='My picture' style={{ float: 'left', maxHeight: '200px', margin: '20px 20px 20px 0px' }}/>
+        <img src={Picture} alt='Lucas portrait' className='my-pic'/>
         <p>
-          My name is Lucas Frederico Piquet Carneiro Magalhaes. I've studied programming 
-          and enjoyed video games through all of my life. My dream is to work on video games that people can 
-          enjoy as much as I enjoyed my favorites. So I specialized in game programming to work on 
-          the industry that brought so much joy to my life.
+          I've graduated from a program that taught me about most (if not all) different fields of programming, but the most important thing
+          I learned is that I love working with technology. Either that being implementing new features or building something from ground up.
+          No matter what it is, my satisfaction comes from seeing my work in action and learning new skills from projects and teammates.
         </p>
-        <p>
-          Here are some of my favorite games:
+        <p style={{margin: '20px 0px 20px 0px'}}>
+          Here are some skills that I've aquired while working on different projects:
         </p>
-      </div>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center' }}>
-          <img src={BOTW_Logo} alt='Zelda Breath of the Wild logo' className='gameLogo-1'/>
-          <img src={OuterWilds_Logo} alt='Outer Wilds logo' className='gameLogo-2'/>
-          <img src={PokemonBW2_Logo} alt='Pokémon Black & White 2 logo' className='gameLogo-3'/>
-        </div>
-        <div style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', marginBottom: '20px' }}>
-          <img src={RoR2_Logo} alt='Risk of Rain 2 logo' className='gameLogo-4'/>
-          <img src={Satisfactory_Logo} alt='Satisfactory logo' className='gameLogo-5'/>
-          <img src={Portal2_Logo} alt='Portal 2 logo' className='gameLogo-6'/>
+        <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+          <div>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>AWS</li>
+          </div>
+          <div>
+            <li>C#</li>
+            <li>C++</li>
+            <li>OpenGL</li>
+            <li>Unreal Engine 5</li>
+          </div>
         </div>
       </div>
     </div>
