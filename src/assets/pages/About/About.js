@@ -53,7 +53,7 @@ function About() {
         <p>In case you want to a taste of my work, here is a demo video of my biggest project and (now most) of it's features:</p>
         <div style={{ display: 'flex', justifyContent: 'center', margin: '20px 0px 20px 0px' }}>
           <iframe height="300" width="500" title='Personal Project Demo Video'
-            src="https://www.youtube.com/embed/1azS6HWtYpU"> 
+            src="https://www.youtube.com/embed/RrCl_TlBW-E"> 
           </iframe>
         </div>
       </div>
