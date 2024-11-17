@@ -19,7 +19,7 @@ function Home() {
     <div className='homeContainer'>
       <div className='titles'>
         <h1 class='name'>Lucas Magalhaes</h1>
-        <h2 class='greeting'>Software Engineer & Game Developer</h2>
+        <h2 class='greeting'>Game Developer, Software Engineer & thing doer</h2>
         <div className='contact'>
           <a href={'https://www.linkedin.com/in/l-magalhaes/'} target="_blank" rel="noreferrer"><img src={Linkedin_Icon} alt='Linkedin' className='contactIcon'/></a>
           <a href={'https://github.com/freddder'} target="_blank" rel="noreferrer" ><img src={Github_Icon} alt='Github' className='contactIcon'/></a>

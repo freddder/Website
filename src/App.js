@@ -14,6 +14,7 @@ function App() {
           <button onClick={ () => setPage('Home') }>Home</button>
           {/*<button onClick={ () => setPage('Experience') }>Experience</button>*/}
           <button onClick={ () => setPage('About') }>About Me</button>
+          <button onClick={ () => window.open("https://docs.google.com/document/d/1jk5e8JrAq5B7_BRsoqBLWX73XUXPC9FK/edit?usp=drive_link&ouid=112853903530091484741&rtpof=true&sd=true", "_blank", "noreferrer") }>Resume</button>
         </div>
       </header>
       <div>
