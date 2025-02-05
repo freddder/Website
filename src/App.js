@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react'
 import Home from './assets/pages/home/Home';
 //import Experience from './assets/pages/experience/Experience';
-import About from './assets/pages/about/About';
+import About from './assets/pages/About/About';
 
 function App() {
   const [page, setPage] = useState('Home');
