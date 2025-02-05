@@ -12,6 +12,7 @@ function About() {
     tl.fromTo(".textBlock", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 });
     tl.fromTo(".project-1", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.4");
     tl.fromTo(".project-2", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.4");
+    tl.fromTo(".project-3", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.4");
   }, [])
 
   return (
