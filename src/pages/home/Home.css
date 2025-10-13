@@ -1,8 +1,8 @@
 .titles {
-    text-align: left;
     font-family: Ubuntu;
-    width: 50%;
-    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
   
 .titles h1 {
@@ -22,16 +22,18 @@
 
 .homeContainer {
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
     overflow: hidden;
 }
 
 .earthDiv {
-    width: 50%; 
-    display: flex;
-    justify-content: flex-end;
-    align-self: flex-end;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    overflow: hidden;
+    z-index: 0;
 }
 
 @media (max-width: 1000px) {
@@ -44,12 +46,12 @@
         justify-content: center;
     }
 
-    .titles {
+    /*.titles {
         width: 100%;
         padding-left: 0;
         padding-bottom: 70%;
         text-align: center;
-    }
+    }*/
 
     .titles h1 {
         font-size: 4em;
