@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import './About.css';
 //import Picture from '../../images/My_Picture.jpg';
-import LGBS from '../../images/TitleCard.png';
-import WardensOath from '../../images/WardensOath.png'
+import LGBS from '../../assets/images/TitleCard.png';
+import WardensOath from '../../assets/images/WardensOath.png'
 
 function About() {
 

@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import gsap from 'gsap';
 import Project from './Project';
 import './Experience.css';
-import path from '../../images/Path_of_Titans_Banner.jpg';
-import pkm from '../../images/PKM_Banner.png';
-import unannounced from '../../images/Unannounced_Banner.png';
+import path from '../../assets/images/Path_of_Titans_Banner.jpg';
+import pkm from '../../assets/images/PKM_Banner.png';
+import unannounced from '../../assets/images/Unannounced_Banner.png';
 
 const projects = [
   {

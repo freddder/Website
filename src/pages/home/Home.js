@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import gsap from 'gsap';
 import Earth from './Earth';
 import './Home.css';
-import Linkedin_Icon from '../../images/Linkedin.png';
-import Github_Icon from '../../images/Github.png';
+import Linkedin_Icon from '../../assets/images/Linkedin.png';
+import Github_Icon from '../../assets/images/Github.png';
 
 function Home() {
 
