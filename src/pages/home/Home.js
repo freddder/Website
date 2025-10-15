@@ -2,24 +2,35 @@ import { useEffect } from 'react'
 import gsap from 'gsap';
 import Earth from './Earth';
 import './Home.css';
-import Linkedin_Icon from '../../assets/icons/Linkedin.png';
-import Github_Icon from '../../assets/icons/Github.png';
 
 import Carousel from './Carousel';
-import bg from '../../assets/images/Path_of_Titans_Banner.jpg';
-import bg2 from '../../assets/images/PKM_Banner.png';
+
+import pot from '../../assets/images/Path_of_Titans_Banner.jpg';
+import magik from '../../assets/images/PKM_Banner.png';
+import una from '../../assets/images/Unannounced_Banner.png';
+
+import opengl from '../../assets/icons/Opengl_logo.png';
+import cpp from '../../assets/icons/cpp_logo.png';
+import cs from '../../assets/icons/cs_logo.png';
+import unreal from '../../assets/icons/Unreal_logo.png';
+import unity from '../../assets/icons/Unity_logo.png';
+import steam from '../../assets/icons/Steam_logo.png';
+
 const slides = [
  {
-   title: 'Title 1',
-   background: bg,
+   title: 'Path of Titans',
+   background: pot,
+   skills: [unreal, cpp]
  },
  { 
-   title: 'Title 2',
-   background: bg2,
+   title: 'Project Magik',
+   background: magik,
+   skills: [opengl, cpp]
  },
  { 
-   title: 'Title 3',
-   background: bg, 
+   title: 'Unannouced Project',
+   background: una, 
+   skills: [unity, cs, steam]
  },
 ];
 
@@ -29,8 +40,8 @@ function Home() {
     var tl = gsap.timeline();
     tl.fromTo(".name", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 });
     tl.fromTo(".greeting", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.5");
-    tl.fromTo(".contact", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.5");
-    tl.fromTo(".container", { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.5"); // for Earth
+    tl.fromTo(".carousel", { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.5");
+    //tl.fromTo(".container", { x: 100, opacity: 0 }, { x: 0, opacity: 1, duration: 1 }, "-=0.5"); // for Earth
   }, []);
 
   return (
