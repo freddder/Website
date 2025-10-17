@@ -4,6 +4,8 @@ import Layout from './pages/Layout';
 import Home from './pages/home/Home';
 import Experience from './pages/experience/Experience';
 import About from './pages/about/About';
+import Professional from './pages/professional/Professional';
+import Personal from './pages/personal/Personal';
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
         <Routes>
           <Route element={<Layout/>}>
             <Route path='/' element={<Home/>}/>
+            <Route path='/professional' element={<Professional/>}/>
+            <Route path='/personal' element={<Personal/>}/>
             <Route path='/experience' element={<Experience/>}/>
             <Route path='/about' element={<About/>}/>
           </Route>

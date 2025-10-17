@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import gsap from 'gsap';
-import Earth from './Earth';
+//import Earth from './Earth';
 import './Home.css';
 
 import Carousel from './Carousel';
@@ -46,9 +46,9 @@ function Home() {
 
   return (
     <div className='homeContainer'>
-      <div className='earthDiv'>
+      {/*<div className='earthDiv'>
         <Earth />
-      </div>
+      </div>*/}
       <div className='titles'>
         <h1 class='name'>Lucas Magalhaes</h1>
         <h2 class='greeting'>Game Developer, Software Engineer & thing doer</h2>

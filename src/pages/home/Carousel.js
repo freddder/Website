@@ -29,7 +29,7 @@ function Carousel(props) {
         <div className='carousel' onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)}>
             {props.slides.map((slideData, idx) => {
                 return <div key={idx} alt='' className={slide === idx ? 'slide' : 'slide slide-hidden'}>
-                    <img alt={'background'} src={slideData.background} style={{ objectFit: 'cover', width: '100%', height: '100%' }}/>
+                    <img alt={'background'} src={slideData.background} style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
                     <div className='skillContainer'>
                         {slideData.skills.map((skill, j) => {
                             return <img id={j} alt={'skill 1'} src={skill} className='skill'/>
