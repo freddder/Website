@@ -1,5 +1,5 @@
 
-[class *= 'project'] {
+/* [class *= 'project'] {
     font-family: Ubuntu;
     display: flex;
     width: 100%;
@@ -17,7 +17,7 @@
 
 [class *= 'project'] li {
     font-size: 1.5rem;
-}
+} */
 
 .projContainer {
     text-align: left;
@@ -31,12 +31,12 @@
 
 @media (max-width: 1000px) {
 
-    [class *= 'project'] {
+    /* [class *= 'project'] {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    }
+    } */
 
     .projContainer {
         text-align: center;
@@ -49,8 +49,8 @@
         object-fit: contain;
     }
 
-    [class *= 'project'] li {
+    /* [class *= 'project'] li {
         text-align: left;
         font-size: 1rem;
-    }
+    } */
 }

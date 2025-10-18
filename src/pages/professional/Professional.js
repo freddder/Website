@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
-import '../Project.css';
+import '../ProjectPreview.css';
 
 import pot from '../../assets/images/Path_of_Titans_Banner.jpg';
 import unannounced from '../../assets/images/Unannounced_Banner.png';
@@ -36,17 +36,17 @@ const projects = [
 function Professional() {
     useEffect(() => {
         var tl = gsap.timeline();
-        projects.map((_, i) => { 
+        projects.forEach((_, i) => { 
             tl.fromTo(`.preview-${i}`, { y: -50, opacity: 0 }, { y: 0, opacity: 1, duration: 1 }, "-=0.5");
         })
     }, []);
 
     return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-            <h1>Professional</h1>
+            <h1>Professional Work</h1>
             {projects.map((project, idx) => { 
-                return <div id={idx} className={`preview-${idx}`}><Link to='/'>
-                    <img src={project.banner} className='banner'/>
+                return <div id={idx} className={`preview-${idx}`}><Link to={project.page}>
+                    <img src={project.banner} alt='project banner' className='banner'/>
                     <div className='projDetail'>
                         <div style={{ textAlign: 'left', position:'absolute', top: '0px' }}>
                             <h2>{project.title}</h2>
