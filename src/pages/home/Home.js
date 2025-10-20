@@ -17,21 +17,24 @@ import unity from '../../assets/icons/Unity_logo.png';
 import steam from '../../assets/icons/Steam_logo.png';
 
 const slides = [
- {
-   title: 'Path of Titans',
-   background: pot,
-   skills: [unreal, cpp]
- },
- { 
-   title: 'Project Magik',
-   background: magik,
-   skills: [opengl, cpp]
- },
- { 
-   title: 'Unannouced Project',
-   background: una, 
-   skills: [unity, cs, steam]
- },
+  {
+    title: 'Path of Titans',
+    background: pot,
+    skills: [unreal, cpp],
+    page: '/pot'
+  },
+  { 
+    title: 'Project Magik',
+    background: magik,
+    skills: [opengl, cpp],
+    page: '/magik'
+  },
+  { 
+    title: 'Unannouced Project',
+    background: una, 
+    skills: [unity, cs, steam],
+    page: '/'
+  },
 ];
 
 function Home() {

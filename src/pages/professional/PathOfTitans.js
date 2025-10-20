@@ -13,7 +13,7 @@ function PathOfTitans() {
 
     return (
         <div className='projectContainer'>
-            <img src={banner} alt='Path of Titans banner' style={{ width: '100%', height: '20vh', position: 'relative', left: '0px', top: '0px', objectFit: 'cover' }}/>
+            <img src={banner} alt='Path of Titans banner' className='projectBanner' />
             <div style={{ padding: '20px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-evenly', width: '100%', marginBottom: '20px' }}>
                     <div>
@@ -33,7 +33,7 @@ function PathOfTitans() {
                         </ul>
                     </div>
                 </div>
-                <iframe width="80%" height="500px" src="https://www.youtube.com/embed/klv0zmj9f90" title="Path of Titans - Night Stalker Update Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/>
+                <iframe width="80%" height="500px" src="https://www.youtube.com/embed/klv0zmj9f90" title="Path of Titans - Night Stalker Update Trailer" allowFullScreen/>
                 <hr className='divider' />
                 <div style={{ width: '100%' }}>
                     <h1>Quest Giver System</h1>

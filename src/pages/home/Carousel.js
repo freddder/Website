@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 import './Carousel.css'
 
 import arrow from '../../assets/icons/Arrow.png';
@@ -28,7 +29,7 @@ function Carousel(props) {
     return (
         <div className='carousel' onMouseEnter={() => setIsPaused(true)} onMouseLeave={() => setIsPaused(false)}>
             {props.slides.map((slideData, idx) => {
-                return <div key={idx} alt='' className={slide === idx ? 'slide' : 'slide slide-hidden'}>
+                return <div key={idx} alt='' className={slide === idx ? 'slide' : 'slide slide-hidden'}><Link to={slideData.page}>
                     <img alt={'background'} src={slideData.background} style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
                     <div className='skillContainer'>
                         {slideData.skills.map((skill, j) => {
@@ -36,7 +37,7 @@ function Carousel(props) {
                         })}
                     </div>
                     <div className='slideTitle'>{slideData.title}</div>
-                </div>
+                </Link></div>
             })}
             <img src={arrow} className='arrow arrow-left' alt='left arrow' onClick={previousSlide}/>
             <img src={arrow} className='arrow arrow-right' alt='right arrow' onClick={nextSlide}/>

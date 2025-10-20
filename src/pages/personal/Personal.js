@@ -21,7 +21,7 @@ const projects = [
         title: "Project Mountain",
         banner: mountain,
         engine: "Godot",
-        desc: "Emerging 3D movement prototype",
+        desc: "Emergent 3D movement prototype",
         page: "/mountain"
     },
     {

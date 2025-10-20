@@ -16,7 +16,7 @@ const projects = [
         page: "/pot"
     },
     {
-        title: "Unnanouced Game",
+        title: "Unnanounced Game",
         banner: unannounced,
         engine: "Unreal Engine 5",
         role: "Gameplay Programmer",
@@ -24,7 +24,7 @@ const projects = [
         page: "/una1"
     },
     {
-        title: "Unnanouced Game",
+        title: "Unnanounced Game",
         banner: unannounced,
         engine: "Unity",
         role: "Technical Consultant & Lead Programmer",

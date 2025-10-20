@@ -23,22 +23,13 @@
 }
 
 .pageButtons {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@media (max-width: 1000px) {
-
-  .pageButtons {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-  }
 }
 
 @font-face {
