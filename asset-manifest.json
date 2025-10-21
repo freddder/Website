@@ -1,18 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.51366380.css",
-    "main.js": "/static/js/main.d44ded4e.js",
+    "main.css": "/static/css/main.62ecf337.css",
+    "main.js": "/static/js/main.8f908219.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/Magik_visual.gif": "/static/media/Magik_visual.31af96a1827380cab52d.gif",
+    "static/media/Mountain_Gamplay.png": "/static/media/Mountain_Gamplay.03e6963f6f9ee159b3d7.png",
+    "static/media/Magik_Map_Tool.png": "/static/media/Magik_Map_Tool.bf29a63ec96da9751d37.png",
+    "static/media/Magik_Imported_Map.png": "/static/media/Magik_Imported_Map.9d0b70d71464e42cbdd6.png",
+    "static/media/LGBS_Gameplay.png": "/static/media/LGBS_Gameplay.836bc33f7696a7999b0e.png",
+    "static/media/LOOP_Gameplay.png": "/static/media/LOOP_Gameplay.ceadcf5b07500f156e99.png",
+    "static/media/PKM_Banner.png": "/static/media/PKM_Banner.b6880040757e668e31f9.png",
+    "static/media/Path_of_Titans_Banner.jpg": "/static/media/Path_of_Titans_Banner.1e659053542f0c6264eb.jpg",
     "static/media/UbuntuMono-Regular.ttf": "/static/media/UbuntuMono-Regular.9fa7d55c51063608f793.ttf",
-    "static/media/TitleCard.png": "/static/media/TitleCard.bca46285497a5c6e7682.png",
-    "static/media/WardensOath.png": "/static/media/WardensOath.61d4ea5c272b6749c253.png",
+    "static/media/WO_Gameplay.png": "/static/media/WO_Gameplay.8c02ca9d6a328f5ddd4a.png",
+    "static/media/Magik_file_data.png": "/static/media/Magik_file_data.b9800245a3326db9145d.png",
+    "static/media/cpp_logo.png": "/static/media/cpp_logo.053a898d752aef72651e.png",
+    "static/media/Magik_data_code.png": "/static/media/Magik_data_code.1f187f3e40cfd9bb5f0c.png",
+    "static/media/Unity_logo.png": "/static/media/Unity_logo.615861b7f737268ebba3.png",
+    "static/media/Opengl_logo.png": "/static/media/Opengl_logo.9cd9882048ea9a5dcf2c.png",
+    "static/media/Steam_logo.png": "/static/media/Steam_logo.30e44a128b10fc0923c0.png",
+    "static/media/cs_logo.png": "/static/media/cs_logo.f85bb96b85c545d04ced.png",
     "index.html": "/index.html",
-    "main.51366380.css.map": "/static/css/main.51366380.css.map",
-    "main.d44ded4e.js.map": "/static/js/main.d44ded4e.js.map",
+    "main.62ecf337.css.map": "/static/css/main.62ecf337.css.map",
+    "main.8f908219.js.map": "/static/js/main.8f908219.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51366380.css",
-    "static/js/main.d44ded4e.js"
+    "static/css/main.62ecf337.css",
+    "static/js/main.8f908219.js"
   ]
 }
