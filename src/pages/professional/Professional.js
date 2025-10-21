@@ -18,18 +18,18 @@ const projects = [
     {
         title: "Unnanounced Game",
         banner: unannounced,
-        engine: "Unreal Engine 5",
-        role: "Gameplay Programmer",
-        desc: "???",
-        page: "/una1"
+        engine: "Unity",
+        role: "Technical Consultant & Lead Programmer",
+        desc: "More details when I'm allowed to talk about it",
+        page: "/professional"
     },
     {
         title: "Unnanounced Game",
         banner: unannounced,
-        engine: "Unity",
-        role: "Technical Consultant & Lead Programmer",
-        desc: "???",
-        page: "/una2"
+        engine: "Unreal Engine 5",
+        role: "Gameplay Programmer",
+        desc: "More details when I'm allowed to talk about it",
+        page: "/professional"
     },
 ];
 

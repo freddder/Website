@@ -32,6 +32,14 @@
   color: #61dafb;
 }
 
+a:link, a:visited {
+  color: white;
+}
+
+h1, h2 {
+  font-family: Ubuntu;
+}
+
 @font-face {
   font-family: "Ubuntu";
   src: local("UbuntuMono-Regular"),

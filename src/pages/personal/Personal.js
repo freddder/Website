@@ -22,28 +22,28 @@ const projects = [
         banner: mountain,
         engine: "Godot",
         desc: "Emergent 3D movement prototype",
-        page: "/mountain"
+        page: "https://fredder.itch.io/3d-movement-demo"//"/mountain"
     },
     {
         title: "Warden's Oath",
         banner: warden,
         engine: "Godot",
         desc: "Pirate Software Game Jam submission (2 weeks)",
-        page: "/wardensoath"
+        page: "https://fredder.itch.io/wardens-oath"//"/wardensoath"
     },
     {
         title: "LOOP",
         banner: loop,
         engine: "Godot",
         desc: "GMTK 2025 Game Jam submission (4 days)",
-        page: "/loop"
+        page: "https://jaidentfs.itch.io/pool"//"/loop"
     },
     {
         title: "Little Guy Big Sword",
         banner: lgbs,
         engine: "Godot",
         desc: "GMTK 2024 Game Jam submission (4 days)",
-        page: "/lgbs"
+        page: "https://fredder.itch.io/little-guy-big-sword"//"/lgbs"
     },
 ];
 
@@ -59,7 +59,7 @@ function Personal() {
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <h1>Personal Projects</h1>
             {projects.map((project, idx) => { 
-                return <div id={idx} className={`preview-${idx}`}><Link to='/'>
+                return <div id={idx} className={`preview-${idx}`}><Link to={project.page}>
                     <img src={project.banner} alt='banner' className='banner'/>
                     <div className='projDetail'>
                         <div style={{ textAlign: 'left', position:'absolute', top: '0px' }}>
