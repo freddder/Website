@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.62ecf337.css",
-    "main.js": "/static/js/main.8f908219.js",
+    "main.js": "/static/js/main.3b579896.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/Magik_visual.gif": "/static/media/Magik_visual.31af96a1827380cab52d.gif",
     "static/media/Mountain_Gamplay.png": "/static/media/Mountain_Gamplay.03e6963f6f9ee159b3d7.png",
@@ -22,11 +22,11 @@
     "static/media/cs_logo.png": "/static/media/cs_logo.f85bb96b85c545d04ced.png",
     "index.html": "/index.html",
     "main.62ecf337.css.map": "/static/css/main.62ecf337.css.map",
-    "main.8f908219.js.map": "/static/js/main.8f908219.js.map",
+    "main.3b579896.js.map": "/static/js/main.3b579896.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62ecf337.css",
-    "static/js/main.8f908219.js"
+    "static/js/main.3b579896.js"
   ]
 }
