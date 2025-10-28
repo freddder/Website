@@ -8,6 +8,7 @@ import Professional from './pages/professional/Professional';
 import Personal from './pages/personal/Personal';
 import PathOfTitans from './pages/professional/PathOfTitans';
 import Magik from './pages/personal/Magik';
+import Spook from './pages/Spook';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/about' element={<About/>}/>
             <Route path='/pot' element={<PathOfTitans/>}/>
             <Route path='/magik' element={<Magik/>}/>
+            <Route path='/spook' element={<Spook/>}/>
           </Route>
         </Routes>
       </Router>
