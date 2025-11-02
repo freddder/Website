@@ -40,6 +40,10 @@ h1, h2 {
   font-family: Ubuntu;
 }
 
+p {
+    margin: 0px;
+}
+
 @font-face {
   font-family: "Ubuntu";
   src: local("UbuntuMono-Regular"),

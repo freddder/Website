@@ -109,6 +109,7 @@ function Magik() {
                 <hr className='divider' />
                 <div>
                     <h1>Visuals</h1>
+                    <br/>
                     <p>
                         Not only I wanted to learn make the rendering system myself, but it was a good opportunity to make the game look visually distinc from the more recent
                         entries in the series. I decided to try to create what would the natural evolution of the style of the DS games.
